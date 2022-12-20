@@ -20,6 +20,9 @@
     },
     "date": {
       "type": "date"
+    },
+    "paid": {
+      "type": "boolean"
     }
   }
 }

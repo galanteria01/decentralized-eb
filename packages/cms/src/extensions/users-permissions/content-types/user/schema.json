@@ -72,6 +72,9 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::transaction.transaction"
+    },
+    "address": {
+      "type": "uid"
     }
   }
 }

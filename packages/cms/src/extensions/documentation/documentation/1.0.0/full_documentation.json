@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-11-22T07:09:21.249Z"
+    "x-generation-date": "2022-12-20T09:58:15.210Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7031,6 +7031,9 @@
                                                         "type": "string",
                                                         "format": "date"
                                                       },
+                                                      "paid": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -7161,6 +7164,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "address": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -7750,6 +7756,9 @@
                                                         "type": "string",
                                                         "format": "date"
                                                       },
+                                                      "paid": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -7880,6 +7889,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "address": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -8502,6 +8514,9 @@
                                                         "type": "string",
                                                         "format": "date"
                                                       },
+                                                      "paid": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -8632,6 +8647,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "address": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -9221,6 +9239,9 @@
                                                         "type": "string",
                                                         "format": "date"
                                                       },
+                                                      "paid": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -9351,6 +9372,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "address": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -9711,6 +9735,9 @@
                                                                     "date": {
                                                                       "type": "string",
                                                                       "format": "date"
+                                                                    },
+                                                                    "paid": {
+                                                                      "type": "boolean"
                                                                     },
                                                                     "createdAt": {
                                                                       "type": "string",
@@ -10093,6 +10120,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "address": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -10460,6 +10490,9 @@
                                                                       "type": "string",
                                                                       "format": "date"
                                                                     },
+                                                                    "paid": {
+                                                                      "type": "boolean"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -10841,6 +10874,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "address": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -11241,6 +11277,9 @@
                                                                       "type": "string",
                                                                       "format": "date"
                                                                     },
+                                                                    "paid": {
+                                                                      "type": "boolean"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -11622,6 +11661,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "address": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -11989,6 +12031,9 @@
                                                                       "type": "string",
                                                                       "format": "date"
                                                                     },
+                                                                    "paid": {
+                                                                      "type": "boolean"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -12371,6 +12416,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "address": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -12671,6 +12719,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "address": {
+                "type": "string"
               }
             }
           }
@@ -13140,6 +13191,9 @@
                                                         "type": "string",
                                                         "format": "date"
                                                       },
+                                                      "paid": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -13270,6 +13324,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "address": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -13407,6 +13464,9 @@
                     }
                   }
                 }
+              },
+              "address": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -13918,6 +13978,9 @@
                                                         "type": "string",
                                                         "format": "date"
                                                       },
+                                                      "paid": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -14048,6 +14111,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "address": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -14185,6 +14251,9 @@
                     }
                   }
                 }
+              },
+              "address": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -14729,6 +14798,9 @@
                                                         "type": "string",
                                                         "format": "date"
                                                       },
+                                                      "paid": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -14859,6 +14931,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "address": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -14996,6 +15071,9 @@
                     }
                   }
                 }
+              },
+              "address": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -15507,6 +15585,9 @@
                                                         "type": "string",
                                                         "format": "date"
                                                       },
+                                                      "paid": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -15637,6 +15718,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "address": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -15774,6 +15858,9 @@
                     }
                   }
                 }
+              },
+              "address": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",

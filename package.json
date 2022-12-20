@@ -2,5 +2,14 @@
   "private": true,
   "name": "decentralized-eb",
   "workspaces": ["packages/*"],
-  "scripts": {}
+  "scripts": {
+    "client:start": "yarn workspace client start",
+    "client:build": "yarn workspace client build",
+    "client:dev": "yarn workspace client dev",
+    "chains": "yarn workspace chains dev",
+    "chains:compile": "yarn workspace chains compile",
+    "chains:void:deploy": "yarn workspace chains void:deploy",
+    "chains:test": "yarn workspace chains test",
+    "chains:test:ci": "yarn workspace chains test:ci"
+  }
 }

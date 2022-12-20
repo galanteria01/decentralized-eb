@@ -1,16 +1,28 @@
-import { Link as ChakraLink, Button } from '@chakra-ui/react'
+import { Link as ChakraLink, Button, useToast } from '@chakra-ui/react'
 
 import { Container } from './Container'
 import { ethers } from 'ethers'
 import { useRouter } from 'next/router'
+import { useAppDispatch } from '../app/hooks'
+import { addUser } from '../features/user/userSlice'
 
 export const CTA = () => {
   const router = useRouter();
+  const toast = useToast()
+  const dispatch = useAppDispatch()
   const loginMetaMask = async () => {
     const provider = new ethers.providers.Web3Provider(window.ethereum)
     await provider.send("eth_requestAccounts", []);
     const signer = provider.getSigner()
-    console.log(signer)
+    const address = await signer.getAddress()
+    dispatch(addUser(address))
+    toast({
+      position: 'bottom',
+      title: 'Wallet Connected',
+      description: 'you are now connected to Metamask',
+      duration: 3000,
+      isClosable: true,
+    })
     router.push('/home');
   }
   return (

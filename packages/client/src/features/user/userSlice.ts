@@ -5,11 +5,11 @@ export const userSlice = createSlice({
   name: 'user',
   initialState: '',
   reducers: {
-    addAccount: (state: string, action: PayloadAction<string>) => action.payload,
+    addUser: (state: string, action: PayloadAction<string>) => action.payload,
   }
 })
 
-export const { addAccount } = userSlice.actions
+export const { addUser } = userSlice.actions
 
 export const selectUser = (state: RootState) => state.user;
 

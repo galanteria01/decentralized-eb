@@ -1,9 +1,8 @@
-import { Flex } from "@chakra-ui/react"
+import { Flex, Heading, VStack } from "@chakra-ui/react"
 
 export const TransactionsList = () => {
   return (
-    <Flex>
-
-    </Flex>
+    <VStack>
+    </VStack>
   )
 }

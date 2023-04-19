@@ -3,6 +3,7 @@ import { Button, Flex, IconButton, Image, Menu, MenuButton, MenuItem, MenuList, 
 import { useRouter } from "next/router"
 import { useAppDispatch } from "../app/hooks"
 import { addUser } from "../features/user/userSlice"
+import Link from "next/link"
 
 export const Navbar = () => {
   const router = useRouter()
@@ -25,7 +26,9 @@ export const Navbar = () => {
       justifyContent={'space-between'}
       p={8}
     >
-      <Image src={'/fire.png'} alt={'Image Icon'} height={12} />
+      <Link href={'/home'}>
+        <Image src={'/fire.png'} alt={'Image Icon'} height={12} />
+      </Link>
       <Flex>
         <IconButton
           icon={<SunIcon />}

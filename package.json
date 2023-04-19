@@ -10,6 +10,7 @@
     "chains:compile": "yarn workspace chains compile",
     "chains:void:deploy": "yarn workspace chains void:deploy",
     "chains:test": "yarn workspace chains test",
-    "chains:test:ci": "yarn workspace chains test:ci"
+    "chains:test:ci": "yarn workspace chains test:ci",
+    "cms:develop": "yarn workspace cms develop"
   }
 }

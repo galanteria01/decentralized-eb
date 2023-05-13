@@ -16,6 +16,7 @@ export const CTA = () => {
     const signer = provider.getSigner()
     const address = await signer.getAddress()
     dispatch(addUser(address))
+    console.log(address)
     toast({
       position: 'bottom',
       title: 'Wallet Connected',
